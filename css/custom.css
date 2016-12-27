@@ -12,3 +12,7 @@
 #navButton:hover {
   color: gray;
 }
+
+#navButton:active {
+  color: green;
+}
