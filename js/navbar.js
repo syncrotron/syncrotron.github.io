@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-  $.get("html/navigation.html", function(data){
-    $("#nav-placeholder").replaceWith(data);
+  $.get("navTop.html", function(data){
+    $("#nav-top").replaceWith(data);
   });
 
 });
