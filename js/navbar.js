@@ -5,3 +5,11 @@ $(document).ready(function(){
   });
 
 });
+
+$(document).ready(function(){
+
+  $.get("navBottom.html", function(data){
+    $("#nav-bot").replaceWith(data);
+  });
+
+});
