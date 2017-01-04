@@ -1,0 +1,158 @@
+#navBar {
+  /* Sourced from @_ighosh*/
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+  background-image: url("../images/background.png");
+  background-repeat: repeat;
+}
+
+.navButton {
+  color: white;
+}
+
+.navButton:hover {
+  color: gray;
+}
+
+.background-image {
+  height: 243px;margin: 0px;padding: 0px;overflow: hidden;
+  background:  url('../images/versailles.jpg') no-repeat center center;
+  background-image: url('../images/versailles.jpg');
+}
+
+
+@media only screen and (max-width: 500px) {
+  #round-image {
+    width: 20%;
+  	height: 30%;
+    border-radius: 10px / 20px ;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    z-index: 1;
+    top: -75px;
+    }
+}
+
+.thumbnail{
+  width: 75px;
+  height: 75px;
+  position: relative;
+  display:inline-block;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+p {
+  font-family: 'PT Sans', serif;
+  font-size: 2em;
+}
+
+.top-buffer {
+  margin-top: 1em;
+}
+
+#round-image {
+  width: 200px;
+	height: 300px;
+  border-radius: 20px / 40px ;
+  border-style: solid;
+  border-width: 5px;
+  position: relative;
+  z-index: 1;
+  top: -75px;
+  left: 10%;
+  size: 10%;
+}
+
+/* for footer social media buttons, sourced from Ben Hodgson*/
+
+.social-icons {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.icon {
+    float: left;
+    position: relative;
+    width: 19%;
+    height: 0;
+    margin: 1% 0.5%;
+    padding-bottom: 19%;
+
+    @media all and (min-width: 640px) {
+        width: 9%;
+        padding-bottom: 9%;
+    }
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+
+    a {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        border-radius: 10px;
+        background-color: #fff;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        transition: all .2s ease-out;
+
+        &:hover {
+            background-color: #222;
+            background-size: 0%;
+            transition: all .2s ease-out;
+        }
+    }
+}
+
+.icon__name {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -7px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+
+    transition: all .3s ease-out;
+    opacity: 0;
+    filter: blur(25px);
+    transform: translateZ(0);
+    will-change: transform;
+
+    .icon:hover & {
+        transition: all .3s ease-out;
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
+.icon--linkedin a {
+    background-color: #007fb1;
+    background-image: url('../images/github.svg');
+}
+
+.icon--github a {
+    background-color: #4183c4;
+    background-image: url('../images/linkedin.svg');
+}
