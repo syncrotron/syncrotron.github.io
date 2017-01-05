@@ -35,7 +35,7 @@ body {
 p.quote {
     margin-top: 5em;
     white-space: pre;
-    font-family: 'PT Sans', serif;
+
     font-style: italic;
     font-weight: bold;
     font-size: 2em;
@@ -44,7 +44,7 @@ p.quote {
 }
 
 p.quoter {
-    font-family: 'PT Sans', serif;
+
     font-style: italic;
     font-weight: bold;
     font-size: 2em;
@@ -70,8 +70,6 @@ p {
 .top-buffer {
   margin-top: 1em;
 }
-
-
 
 #round-image {
   width: 200px;
@@ -106,6 +104,19 @@ p {
     transform: translate(-50%, -50%);
     size: 10%;
   }
+}
+
+#aboutLeft {
+  margin-right: 10em;
+}
+
+#aboutRight{
+  margin-left: 10em;
+}
+
+#aboutParagraph{
+
+  margin-top: 3em;
 }
 
 /* for footer social media buttons, sourced from @vpdemo on codepen*/
