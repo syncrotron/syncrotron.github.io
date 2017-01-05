@@ -136,11 +136,13 @@ h2 {
 /* for footer social media buttons, sourced from @vpdemo on codepen*/
 
 footer {
-      position: absolute;
-      left: 0;
-      bottom: 0;
 
-      width: 100%;
+  display: block;
+  text-align: center;
+  font-size: 0.75em;
+  bottom:0;
+  width: 100%;
+  position: fixed;
 }
 
 a, a:hover {
