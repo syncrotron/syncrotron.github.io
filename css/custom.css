@@ -19,41 +19,18 @@ body {
 }
 
 .background-image {
-  height: 243px;margin: 0px;padding: 0px;overflow: hidden;
+  height: 243px;margin: 0px;
   background:  url('../images/versailles.jpg') no-repeat center center;
-  background-image: url('../images/versailles.jpg');
 }
 
-
-@media only screen and (max-width: 500px) {
-  #round-image {
-    width: 20%;
-  	height: 30%;
-    border-radius: 10px / 20px ;
-    border-style: solid;
-    border-width: 5px;
-    text-align: center;
-    z-index: 1;
-    top: -75px;
-    }
-}
 
 .thumbnail{
   width: 75px;
   height: 75px;
   position: relative;
-  display:inline-block;
+  display: inline-block;
   text-align: center;
 }
-
-.footer {
-  text-align: center;
-}
-
-
-
-
-
 
 
 
@@ -71,7 +48,7 @@ p {
 	height: 300px;
   border-radius: 20px / 40px ;
   border-style: solid;
-  border-width: 5px;
+  border-width: 3px;
   position: relative;
   z-index: 1;
   top: -75px;
@@ -79,80 +56,50 @@ p {
   size: 10%;
 }
 
-/* for footer social media buttons, sourced from Ben Hodgson*/
-
-.social-icons {
-    max-width: 980px;
-    margin: 0 auto;
+.row{
+  margin-left: -15px;
 }
 
-.icon {
-    float: left;
-    position: relative;
-    width: 19%;
-    height: 0;
-    margin: 1% 0.5%;
-    padding-bottom: 19%;
 
-    @media all and (min-width: 640px) {
-        width: 9%;
-        padding-bottom: 9%;
-    }
 
-    &:last-of-type {
-        margin-right: 0;
-    }
+/* for footer social media buttons, sourced from Kieran Hunter*/
 
-    a {
-        display: block;
-        position: absolute;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0;
-        border-radius: 10px;
-        background-color: #fff;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: center center;
-        transition: all .2s ease-out;
-
-        &:hover {
-            background-color: #222;
-            background-size: 0%;
-            transition: all .2s ease-out;
-        }
-    }
+a, a:hover {
+	text-decoration: none;
 }
 
-.icon__name {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    margin-top: -7px;
-    color: #fff;
-    font-size: 13px;
-    text-align: center;
-
-    transition: all .3s ease-out;
-    opacity: 0;
-    filter: blur(25px);
-    transform: translateZ(0);
-    will-change: transform;
-
-    .icon:hover & {
-        transition: all .3s ease-out;
-        opacity: 1;
-        filter: blur(0);
-    }
+.socialbtns, .socialbtns ul, .socialbtns li {
+	margin: 0;
+	padding: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.icon--linkedin a {
-    background-color: #007fb1;
-    background-image: url('../images/github.svg');
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
 }
 
-.icon--github a {
-    background-color: #4183c4;
-    background-image: url('../images/linkedin.svg');
+.socialbtns .fa {
+	width: 50px;
+  height: 50px;
+	color: #FFF;
+	background-color: #000;
+	padding-top: 11px;
+
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.socialbtns .fa:hover {
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-o-border-radius: 20px;
+	transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
 }
