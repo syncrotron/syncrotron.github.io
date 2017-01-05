@@ -1,11 +1,4 @@
 
-#navBar {
-  /* Sourced from @_ighosh*/
-  background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
 body {
   background-image: url("../images/background.png");
   background-repeat: repeat;
@@ -14,47 +7,7 @@ body {
   flex-direction: column;
 }
 
-.background-image {
-  height: 243px;margin: 0px;padding: 0px;overflow: hidden;
-  background:  url('../images/versailles.jpg') no-repeat center center;
-}
-
-.navButton {
-  color: white;
-}
-
-.thumbnail{
-  width: 75px;
-  height: 75px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-p.quote {
-    margin-top: 4em;
-    white-space: pre;
-
-    font-style: italic;
-    font-weight: bold;
-    font-size: 2em;
-    color: black;
-    text-align: center;
-}
-
-p.quoter {
-
-    font-style: italic;
-    font-weight: bold;
-    font-size: 2em;
-    color: black;
-    text-align: center;
-}
-
-p.img {
-  margin-top: 30px;
-  font-family: 'PT Sans', serif;
-  color: white;
+p, h1, h2, h3 {
   word-wrap: break-word;
   overflow-wrap:break-word;
 }
@@ -62,8 +15,45 @@ p.img {
 p {
   font-family: 'PT Sans', serif;
   font-size: 2em;
-  word-wrap: break-word;
-  overflow-wrap:break-word;
+}
+
+h1 {
+  font-family: 'Ubuntu', serif;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 30px;
+
+}
+
+h2 {
+  font-family: 'Ubuntu', serif;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+p.quote {
+    margin-top: 4vw;;
+    white-space: pre;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2vw;
+    color: black;
+    margin: auto;
+}
+
+p.quoter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2vw;
+    color: black;
+    text-align: center;
+}
+
+p.img {
+  margin-top: 30px;
+  color: white;
 }
 
 .top-buffer {
@@ -103,6 +93,10 @@ p {
     transform: translate(-50%, -50%);
     size: 10%;
   }
+
+  h2 {
+    font-size: 1em;
+  }
 }
 
 #aboutLeft {
@@ -114,36 +108,39 @@ p {
 }
 
 #aboutParagraph{
-
+  text-align: center;
   margin-top: 2em;
 }
 
-h1 {
-  font-family: 'Ubuntu', serif;
-  font-size: 4em;
-  text-align: center;
-  margin-bottom: 30px;
+#navBar {
+  /* Sourced from @_ighosh*/
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-h2 {
-  font-family: 'Ubuntu', serif;
-  font-size: 3em;
-  text-align: center;
-  margin-bottom: 70px;
-  margin-top: 70px;
+.background-image {
+  height: 243px;margin: 0px;padding: 0px;overflow: hidden;
+  background:  url('../images/versailles.jpg') no-repeat center center;
 }
+
+.navButton {
+  color: white;
+}
+
+.thumbnail{
+
+  width: 75px;
+  height: 75px;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+
+}
+
+
 
 /* for footer social media buttons, sourced from @vpdemo on codepen*/
-
-footer {
-
-  display: block;
-  text-align: center;
-  font-size: 0.75em;
-  bottom:0;
-  width: 100%;
-  position: fixed;
-}
 
 a, a:hover {
 	text-decoration: none;
