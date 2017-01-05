@@ -1,28 +1,28 @@
+
 #navBar {
   /* Sourced from @_ighosh*/
   background: #000000; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 body {
   background-image: url("../images/background.png");
   background-repeat: repeat;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.background-image {
+  height: 243px;margin: 0px;padding: 0px;overflow: hidden;
+  background:  url('../images/versailles.jpg') no-repeat center center;
 }
 
 .navButton {
   color: white;
 }
-
-.navButton:hover {
-  color: gray;
-}
-
-.background-image {
-  height: 243px;margin: 0px;
-  background:  url('../images/versailles.jpg') no-repeat center center;
-}
-
 
 .thumbnail{
   width: 75px;
@@ -32,16 +32,46 @@ body {
   text-align: center;
 }
 
+p.quote {
+    margin-top: 5em;
+    white-space: pre;
+    font-family: 'PT Sans', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
 
+p.quoter {
+    font-family: 'PT Sans', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+    text-align: center;
+}
+
+p.img {
+  margin-top: 30px;
+  font-family: 'PT Sans', serif;
+  color: white;
+  word-wrap: break-word;
+  overflow-wrap:break-word;
+}
 
 p {
   font-family: 'PT Sans', serif;
   font-size: 2em;
+  word-wrap: break-word;
+  overflow-wrap:break-word;
 }
 
 .top-buffer {
   margin-top: 1em;
 }
+
+
 
 #round-image {
   width: 200px;
@@ -58,11 +88,35 @@ p {
 
 .row{
   margin-left: -15px;
+  margin: auto;
 }
 
+@media only screen and (max-width: 991px) {
+  #round-image {
+    width: 200px;
+  	height: 300px;
+    border-radius: 20px / 40px ;
+    border-style: solid;
+    border-width: 3px;
+    position: relative;
+    z-index: 1;
+    top: 75px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    size: 10%;
+  }
+}
 
+/* for footer social media buttons, sourced from @vpdemo on codepen*/
 
-/* for footer social media buttons, sourced from Kieran Hunter*/
+footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+
+      width: 100%;
+}
 
 a, a:hover {
 	text-decoration: none;
@@ -103,3 +157,32 @@ a, a:hover {
 	-webkit-transition: all ease 0.5s;
 	-o-transition: all ease 0.5s;
 }
+
+
+/* Code for project panels */
+
+.panel {
+	display: none;
+	position: fixed!important;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+  text-align:center;
+}
+
+.panel img {
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.panel:target {
+	outline: none;
+	display: block;
+}
+
+a.psnrl:hover {cursor:default;}
+img:hover {cursor:pointer;}
