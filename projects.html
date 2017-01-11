@@ -1,7 +1,5 @@
 <!doctype html>
-<html lang="en">
-
-  <head>
+<html lang="en"><head>
 
     <meta charset="utf-8">
 
@@ -12,6 +10,8 @@
     <meta name="description" content="Projects that Samuel Horovatin was involved in">
 
     <meta name="author" content="Samuel Horovatin">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -37,17 +37,56 @@
 
   <body>
 
-    <div id="nav-top"></div>
+
+
+<nav class="navbar navbar-default" id="navBar">
+
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+
+      </button>
+
+      <a class="navbar-brand navButton" href="index.html">Home</a>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+
+        <li><a class="navButton" href="about.html">About</a></li>
+        <li><a class="navButton" href="projects.html">Projects</a></li>
+        <li><a class="navButton" href="SamuelHorovatinResume.pdf" target="_blank">Resume</a></li>
+        <li><a class="navButton" href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+
+  </div><!-- /.container-fluid -->
+
+</nav>
+
     <h1> Projects </h1>
     <div class="container-fluid" align="center">
       <!-- img one -->
       <a href="#one">
-      <img src="images/ExUS.jpg" width="30%" >
+      <img class="img-resize" src="images/ExUS.jpg" width="350em">
       </a>
 
       <!-- img one hidden -->
       <a href="#_" class="panel" id="one">
-        <img src="images/ExUS.jpg" width="50%">
+        <img src="images/ExUS.jpg" width="550em">
         <p class="container img">
           At the University of Saskatoon, I played a founding role in the creation of the University's first Exoskeleton Team also called ExUS. The goal of the team is to create a functional exoskeleton (using air muscles as shown above) that augment the natural ability of the wearer. I am currently the acting Treasurer and an active part of the software development team.
         </p>
@@ -55,12 +94,12 @@
 
       <!-- img two -->
       <a href="#two">
-        <img src="images/Ruby.JPG" width="39%">
+        <img class="img-resize" src="images/Ruby.JPG" width="450em">
       </a>
 
       <!-- img two hidden -->
       <a href="#_" class="panel" id="two">
-        <img src="images/Ruby.JPG">
+        <img src="images/Ruby.JPG" width="700em">
         <p class="container img">
           The above shows a personal project to learn web design and Ruby on Rails. Following the course presented by UpSkill, I was able to create a mock website called DevMatch. Other than learning the basics of HTML, CSS, Ruby on Rails and other web design paradigms, I was able to set up a SQL contact database (shown above). All source code it on GitHub.
         </p>
@@ -68,27 +107,34 @@
 
       <!-- img three -->
       <a href="#three">
-        <img src="images/Webpage.JPG" width="30%">
+        <img class="img-resize" src="images/Webpage.JPG" width="350em">
       </a>
 
       <!-- img three hidden -->
       <a href="#_" class="panel" id="three">
-        <img src="images/Webpage.JPG">
-        <p class="container img">
+        <img src="images/Webpage.JPG" width="550em">
+        <p class=" container="" img"=""><p class="container img">
           The above is the webpage you are on now! The construction of this webpage was a massive learning experience. With the help of resources such as bootstrap, jQuery, and CodePen I was able to construct this website. All source code is on GitHub.
         </p>
       </a>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <p class="quote">
         "When something is important enough, you do it even if the odds are not in your favor."
       </p>
-      <p class="quoter" >
+      <p class="quoter">
         -Elon Musk
       </p>
     </div>
-    <div id="nav-bot" ></div>
 
-  </body>
+<div align="center" class="socialbtns">
 
+  <ul>
+    <li><a href="https://github.com/syncrotron" target="_blank" class="fa fa-2x fa-github"></a></li>
+    <li><a href="https://ca.linkedin.com/in/sam-horovatin-0b31a0103" target="_blank" class="fa fa-2x fa-linkedin"></a></li>
+  </ul>
+
+</div>
+<p align="center"> Samuel Horovatin </p>
+</body>
 </html>
