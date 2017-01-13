@@ -124,8 +124,13 @@ p.img {
   background:  url('../images/versailles.jpg') no-repeat center center;
 }
 
-.navButton {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
   color: white;
+  &:hover{
+    color: white;
+    opacity: 0.75;
+  }
 }
 
 .thumbnail{
