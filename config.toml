@@ -1,4 +1,4 @@
-baseurl = "https://syncrotron.github.io"
+baseurl = "https://samuelhorovatin.com"
 disqusShortname = "shorovatin"
 languageCode = "en-us"
 theme = "hugo-theme-terminal"
