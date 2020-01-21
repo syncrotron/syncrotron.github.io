@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on SamuelHorovatin</title>
-    <link>https://syncrotron.github.io/post/</link>
+    <link>https://www.samuelhorovatin.com/post/</link>
     <description>Recent content in Posts on SamuelHorovatin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 Samuel Horovatin</copyright>
     <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://syncrotron.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.samuelhorovatin.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello Friend</title>
-      <link>https://syncrotron.github.io/post/hello/</link>
+      <link>https://www.samuelhorovatin.com/post/hello/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://syncrotron.github.io/post/hello/</guid>
+      <guid>https://www.samuelhorovatin.com/post/hello/</guid>
       <description>For all you keeners out there, I have redesigned my website using Hugo!
 For those who don&#39;t know me, my name is Samuel Horovatin. I am currently in my final year of Computer Science at the University of Saskatchewan. I have experience in project management, back-end technology, cloud, and API development. In addition I have experience working in C, C#, Rust, and Python.
 I am passionate about Bioinformatics, Genetics, Ichthyology, and Paleontology.</description>
