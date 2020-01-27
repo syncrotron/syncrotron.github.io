@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.samuelhorovatin.com/post/about/</loc>
+    <loc>https://www.samuelhorovatin.com/post/hello/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -15,6 +15,10 @@
   <url>
     <loc>https://www.samuelhorovatin.com/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.samuelhorovatin.com/about/</loc>
   </url>
   
   <url>
