@@ -7,20 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 Samuel Horovatin</copyright>
-    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://www.samuelhorovatin.com/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.samuelhorovatin.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>https://www.samuelhorovatin.com/post/about/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://www.samuelhorovatin.com/post/about/</guid>
-      <description>Hi there My name is Samuel Horovatin and I&#39;m the proud owner of this site! I have made this as a mixture blog/portfolio/resume.
-I am currently in my final year of Computer Science at the University of Saskatchewan. I have experience in project management, back-end technology, cloud, and API development. In addition I have experience working in C, C#, Rust, and Python.
-I am passionate about Bioinformatics, Genetics, Ichthyology, and Paleontology.</description>
+      <description>Hi there My name is Samuel Horovatin and I&amp;rsquo;m the proud owner of this site! I have made this as a mixture blog/portfolio/resume.
+I am currently in my first year of a Master&amp;rsquo;s Degree in Computer Science at the University of Saskatchewan (specializing in bioinformatics). Previously, I completed a Bachelor of Science Honours degree in Computer Science at the University of Saskatchewan in April, 2020. I have experience in project management, back-end technology, cloud, and API development.</description>
     </item>
     
   </channel>
